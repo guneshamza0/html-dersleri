@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATIŞ SÖZLEŞMESİ</title>
+</head>
+<body>
+    <p> <center><h1>ABC TASARIM PROGRAMI KURULUM ve SATIŞ SÖZLEŞMESİ</h1></center>  </p>
+    <form name="eleman" action="/uygulama13(tablo_resim_müzik_ve_link_ekleme).html">
+        <fieldset style="background-color: lightsalmon;">
+            <legend><b><h1>Sözleşme Onay</h1></b></legend>
+            <input type="checkbox" name="kutu1"> Aşağıdaki bilgileri okudum kabul ediyorum <br/><br/>
+            <input type="submit" name="buton1" value="formu kaydet">
+            <input type="reset" name="temizle" value="temizle">
+        </fieldset>
+    </form>
+<fieldset  style="background-color: blue;"><legend><b><h1>Kişisel Bilgiler</h1></b></legend>
+    <form style="background-color: aqua;">
+        <label>Ad:<input type="text" name="isim" autofocus= "autofocus"></label></br><br/>
+        <label>soyad:<input type="text" name="soyisim" autofocus="autofocus"></label><br/><br/>
+        <label>yas:<input type="text" name="yaş" autofocus="autofocus"></label><br/><br/>
+        <label>E-posta: <input type="emaiil" name="eposta" autofocus="autofocus"></label><br/><br/>
+    </form>
+</fieldset>
+<fieldset style="background-color: brown"><legend><b><h1>Diğer Bilgiler</h1></b></legend>
+    <form style="background-color: chocolate;">
+        <p>buradaki alanlar mesleki denyimi kapsar</p>
+        <table>
+        <tr>
+            <th><label>sektöre giriş tarihi</label></th>
+            <th><input type="date" name="giris"></th>
+        </tr>
+        <tr>
+            <th><label>sektöre giriş tarihi</label></th>
+            <th><input type="radio" name="tarih" value="1ve5">1-5 yıl <br/>
+            <input type="radio" name="tarih" value="6ve10">6-10 yıl <br/>
+            <input type="radio" name="tarih" value="11ve15">11-15 yıl <br/>
+            <input type="radio" name="tarih" value="15üzeri">15 yıl üzeri <br/>
+            </th>
+        </tr>
+        <tr>
+            <th><label><b><h1>Programlama dilleri</h1></b></label></th>
+            <th>
+                <select name="riskharitasi" multiple>
+                        <option value="s1">java</option>
+                        <option value="s2">python</option>
+                        <option value="s3">C#</option> 
+                        <option value="s4">C++</option>
+                        <option value="s5">PHP</option>
+                </select>
+            </th>
+        </tr>
+        </table> 
+    
+    
+    </form>
+</fieldset>
+<fieldset style="background-color: blueviolet;"><legend><b><h1>Sözleşme Kopyası</h1></b></legend>
+    <form>
+        <textarea rows="9" cols="50" tabindex="2"></textarea>
+    </form>
+</fieldset>
+<fieldset style="background-color: darkslategrey;"><legend><b><h1>Mail Listesi</h1></b></legend>
+    <form>
+        <input type="radio" name="secim" value="mail">mail listesine katılmak istiyorum<br/>
+        <input type="radio" name="secim" value="mail">mail listesine katılmak istemiyorum<br/>
+    </form>
+
+</fieldset>
+</body>
+</html>
