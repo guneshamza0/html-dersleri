@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>formlar</title>
+</head>
+<body>
+    <form name="eleman">
+        <!--label ve tek satırlık metin kutusu ekleme-->
+                Ad:<input type="text"
+        name="isim"/><br/><br/>
+                soyad:<input type="text"
+        name="soyisim"/><br/><br/>
+        <hr/>
+        <!--password metin kutusu ekleme-->
+                kullanıcı:<input type="text"
+        name="kullanici"/><br/><br/>
+                şifre:<input type="text"
+        nme="sifre"/><br/><br/>
+        <hr/>
+        <!--onay kutusu ekleme (checkbox)-->
+                <input type="checkbox" name="kutu1"
+        checked="on"/>HTML<br/><br>
+                <input type="checkbox"
+        checked="on"/>CSS<br/><br>
+                <input type="checkbox"
+        checked="on"/>java<br/><br/>
+        <!--tek seçimlik radio buton ekleme-->
+                <input type="radio"
+        name="secim"/>Evet<br/><br>
+                <input type="radio"
+        name="secim"/>Hayır<br/><br/>
+        <hr/>
+        <!--"gözat dosya ekleme butonu"-->
+                <input type="file" name="dosya"/>
+        <hr/>
+        <!--dropdown list (aşağıya doğru açılan tek seçilik liste)-->
+        <select name="iller size="1">
+            <option value="plaka41">kocaeli</option>
+            <option value="plaka06">ankara</option>
+            <option value="plaka34">istanbul</option>
+            <option value="plaka01">adana</option>
+        </select>
+        <hr/>
+        <!--listbox (sabit liste, birden fazla seçim görünür)-->
+        <select name="aylar" multiple>
+            <option value="1">ocak</option>
+            <option value="2">şubat</option>
+            <option value="3">mart</option>
+            <option value="4">nisan</option>
+            <option value="5">mayıs</option>
+            <option value="6">haziran</option>      
+        </select>
+        <hr/>
+        <!--optgroup (gruplama listesi)-->
+        <select name="riskharitasi" multiple>
+            <optgroup label="kırmızı">
+                <option value="s1">kocaeli</option>
+                <option value="s2">konya</option>
+                <option value="s3">balıkesir</option> 
+            </optgroup>
+            <optgroup label="sarı">
+                <option value="s1">eskişehir</option>
+                <option value="s2">kırrşehir</option>
+                <option value="s3">yozgat</option> 
+            </optgroup>
+            <optgroup label="turuncu">
+                <option value="t1">artvin</option>
+                <option value="t2">çanakkale</option>
+                <option value="t3">kütahya</option> 
+            </optgroup>
+            <optgroup label="mavi">
+                <option value="m1">uşak</option>
+                <option value="m2">batman</option>
+                <option value="m3">ağrı</option> 
+            </optgroup>
+        </select>
+        <hr/>
+    </form>
+</body>
+</html>
